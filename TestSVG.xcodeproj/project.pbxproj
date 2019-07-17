@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2D7C932AD0863E28666B6749 /* Pods_TestSVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A213103C730E3996761CC01 /* Pods_TestSVG.framework */; };
+		C07436C222D2ED5100A6A292 /* test.svg in Resources */ = {isa = PBXBuildFile; fileRef = C07436C122D2ED5100A6A292 /* test.svg */; };
+		C07436C422D30A2A00A6A292 /* text2.svg in Resources */ = {isa = PBXBuildFile; fileRef = C07436C322D30A2A00A6A292 /* text2.svg */; };
+		C07436C622D30DDF00A6A292 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07436C522D30DDF00A6A292 /* ViewController2.swift */; };
+		C07436C822D30EFE00A6A292 /* path2.svg in Resources */ = {isa = PBXBuildFile; fileRef = C07436C722D30EFE00A6A292 /* path2.svg */; };
 		C08D254222BCBB9800A08F0C /* curve.svg in Resources */ = {isa = PBXBuildFile; fileRef = C08D254122BCBB9800A08F0C /* curve.svg */; };
 		C0A80D0122B9DEDE003CEF29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A80D0022B9DEDE003CEF29 /* AppDelegate.swift */; };
 		C0A80D0322B9DEDE003CEF29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A80D0222B9DEDE003CEF29 /* ViewController.swift */; };
@@ -19,6 +23,10 @@
 		059CFADFB6BA8141828D6A80 /* Pods-TestSVG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSVG.debug.xcconfig"; path = "Target Support Files/Pods-TestSVG/Pods-TestSVG.debug.xcconfig"; sourceTree = "<group>"; };
 		8A213103C730E3996761CC01 /* Pods_TestSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D46BB9E4501201EE5071796 /* Pods-TestSVG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSVG.release.xcconfig"; path = "Target Support Files/Pods-TestSVG/Pods-TestSVG.release.xcconfig"; sourceTree = "<group>"; };
+		C07436C122D2ED5100A6A292 /* test.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.svg; sourceTree = "<group>"; };
+		C07436C322D30A2A00A6A292 /* text2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text2.svg; sourceTree = "<group>"; };
+		C07436C522D30DDF00A6A292 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C07436C722D30EFE00A6A292 /* path2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = path2.svg; sourceTree = "<group>"; };
 		C08D254122BCBB9800A08F0C /* curve.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = curve.svg; sourceTree = "<group>"; };
 		C0A80CFD22B9DEDE003CEF29 /* TestSVG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSVG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A80D0022B9DEDE003CEF29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +81,10 @@
 				C08D254122BCBB9800A08F0C /* curve.svg */,
 				C0A80D0022B9DEDE003CEF29 /* AppDelegate.swift */,
 				C0A80D0222B9DEDE003CEF29 /* ViewController.swift */,
+				C07436C522D30DDF00A6A292 /* ViewController2.swift */,
+				C07436C122D2ED5100A6A292 /* test.svg */,
+				C07436C322D30A2A00A6A292 /* text2.svg */,
+				C07436C722D30EFE00A6A292 /* path2.svg */,
 				C0A80D0722B9DEE0003CEF29 /* Assets.xcassets */,
 				C0A80D0922B9DEE0003CEF29 /* LaunchScreen.storyboard */,
 				C0A80D0C22B9DEE0003CEF29 /* Info.plist */,
@@ -148,8 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07436C422D30A2A00A6A292 /* text2.svg in Resources */,
 				C08D254222BCBB9800A08F0C /* curve.svg in Resources */,
+				C07436C822D30EFE00A6A292 /* path2.svg in Resources */,
 				C0A80D0B22B9DEE0003CEF29 /* LaunchScreen.storyboard in Resources */,
+				C07436C222D2ED5100A6A292 /* test.svg in Resources */,
 				C0A80D0822B9DEE0003CEF29 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,17 +181,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestSVG/Pods-TestSVG-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PocketSVG/PocketSVG.framework",
-				"${BUILT_PRODUCTS_DIR}/SVGPath/SVGPath.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftSVG/SwiftSVG.framework",
+				"${BUILT_PRODUCTS_DIR}/FantasticSnowflake/FantasticSnowflake.framework",
+				"${BUILT_PRODUCTS_DIR}/Reindeers/Reindeers.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PocketSVG.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVGPath.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSVG.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FantasticSnowflake.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reindeers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -214,6 +229,7 @@
 			files = (
 				C0A80D0322B9DEDE003CEF29 /* ViewController.swift in Sources */,
 				C0A80D0122B9DEDE003CEF29 /* AppDelegate.swift in Sources */,
+				C07436C622D30DDF00A6A292 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestSVG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,6 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestSVG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

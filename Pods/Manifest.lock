@@ -1,24 +1,24 @@
 PODS:
-  - PocketSVG (2.4.2)
-  - SVGPath (1.0.0)
-  - SwiftSVG (2.3.0)
+  - FantasticSnowflake (2.2.0):
+    - Reindeers
+  - Reindeers (2.2.0)
+  - SnapKit (4.0.1)
 
 DEPENDENCIES:
-  - PocketSVG (~> 2.0)
-  - SVGPath
-  - SwiftSVG (~> 2.0)
+  - FantasticSnowflake (~> 2.2.0)
+  - SnapKit (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - PocketSVG
-    - SVGPath
-    - SwiftSVG
+    - FantasticSnowflake
+    - Reindeers
+    - SnapKit
 
 SPEC CHECKSUMS:
-  PocketSVG: c30139829206a43df2ec203880e3970531facba7
-  SVGPath: 369d11028db7c9a91d2f6fd4b6022c162665a232
-  SwiftSVG: a864db6198fbddfd377f8169849580df18512e67
+  FantasticSnowflake: 333f4bc4165066de717a711be9b6bde95831853a
+  Reindeers: 0c781130bc9088550c70d02a1caf3e328a4b1126
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: 65a713497219616da7f22e18685f29c921ed30eb
+PODFILE CHECKSUM: 6ab28dc02c5c8ee2badfb2ee797128e4b71528f7
 
 COCOAPODS: 1.6.1
